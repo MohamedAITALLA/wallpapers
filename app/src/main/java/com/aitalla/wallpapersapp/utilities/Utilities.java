@@ -198,7 +198,7 @@ public class Utilities {
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError volleyError) {
-                Utilities.toast(activity,volleyError.getMessage());
+                Utilities.toast(activity,"Connection Error !! Please Restart");
             }
         });
 
