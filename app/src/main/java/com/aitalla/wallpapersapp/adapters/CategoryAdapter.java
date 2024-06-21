@@ -10,7 +10,6 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.aitalla.wallpapersapp.R;
-import com.aitalla.wallpapersapp.ads.mintegral.Banner;
 import com.aitalla.wallpapersapp.listeners.OnCategoryClickListener;
 import com.aitalla.wallpapersapp.models.Category;
 import com.bumptech.glide.Glide;
