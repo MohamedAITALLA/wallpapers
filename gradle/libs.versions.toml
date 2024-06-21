@@ -1,0 +1,47 @@
+[versions]
+agp = "8.4.0"
+glide = "4.16.0"
+gson = "2.10.1"
+jsoup = "1.17.2"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+appcompat = "1.7.0"
+lottie = "3.4.0"
+material = "1.12.0"
+activity = "1.9.0"
+constraintlayout = "2.1.4"
+newinterstitial = "16.7.31"
+roomCompiler = "2.6.1"
+swiperefreshlayout = "1.1.0"
+volley = "1.2.1"
+
+[libraries]
+androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "roomCompiler" }
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomCompiler" }
+glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+jsoup = { module = "org.jsoup:jsoup", version.ref = "jsoup" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+lottie = { module = "com.airbnb.android:lottie", version.ref = "lottie" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+
+mbbanner = { module = "com.mbridge.msdk.oversea:mbbanner", version.ref = "newinterstitial" }
+mbbid = { module = "com.mbridge.msdk.oversea:mbbid", version.ref = "newinterstitial" }
+mbnative = { module = "com.mbridge.msdk.oversea:mbnative", version.ref = "newinterstitial" }
+mbnativeadvanced = { module = "com.mbridge.msdk.oversea:mbnativeadvanced", version.ref = "newinterstitial" }
+mbsplash = { module = "com.mbridge.msdk.oversea:mbsplash", version.ref = "newinterstitial" }
+newinterstitial = { module = "com.mbridge.msdk.oversea:newinterstitial", version.ref = "newinterstitial" }
+reward = { module = "com.mbridge.msdk.oversea:reward", version.ref = "newinterstitial" }
+room-compiler = { module = "androidx.room:room-compiler", version.ref = "roomCompiler" }
+swiperefreshlayout = { module = "androidx.swiperefreshlayout:swiperefreshlayout", version.ref = "swiperefreshlayout" }
+volley = { module = "com.android.volley:volley", version.ref = "volley" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home"
+            />
+
+        <item android:id="@+id/nav_download"
+            android:icon="@drawable/ic_download"
+            android:title="My Downloads"
+            />
+
+        <item android:title="More Options">
+            <menu>
+                <item android:id="@+id/nav_rate_us"
+                    android:icon="@drawable/ic_rate"
+                    android:title="Rate and Share"
+                    />
+
+
+                <item android:id="@+id/nav_privacy_policy"
+                android:icon="@drawable/ic_privacy_policy"
+                android:title="Privacy Policy"
+                />
+
+
+            </menu>
+        </item>
+
+    </group>
+</menu>

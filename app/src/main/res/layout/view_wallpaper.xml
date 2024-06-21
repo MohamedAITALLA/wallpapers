@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="LOADING"
+            android:textColor="@color/white"
+            android:textSize="9dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mainLinear"
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        android:layout_marginLeft="1.25dp"
+        android:layout_marginTop="1.25dp"
+        android:layout_marginRight="1.25dp"
+        android:layout_marginBottom="1.25dp">
+
+        <ImageView
+            android:id="@+id/wallpaper"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="bottom"
+        android:id="@+id/l1_premium"
+        android:visibility="gone"
+        android:layout_height="256dp">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="8dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_premium"/>
+</LinearLayout>
+</RelativeLayout>
